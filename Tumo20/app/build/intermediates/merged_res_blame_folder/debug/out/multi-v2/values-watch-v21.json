@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/jmp/Desktop/Tumo20/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/jmp/.gradle/caches/transforms-3/7920eda6105a2f98ed752479e57f8270/transformed/appcompat-1.4.2/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

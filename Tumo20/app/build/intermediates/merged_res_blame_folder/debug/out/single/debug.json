@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable_logoutsvg.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/drawable/logoutsvg.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/menu_tumo_menu.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/menu/tumo_menu.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable_clearsvg.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/drawable/clearsvg.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable-v24_button_style.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/drawable-v24/button_style.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable-v24_back3.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/drawable-v24/back3.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable-v24_back.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/drawable-v24/back.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/layout_activity_sign_up.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/drawable-v24_edit_text_style.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/drawable-v24/edit_text_style.xml"
+    },
+    {
+        "merged": "/home/jmp/Desktop/Tumo20/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/home/jmp/Desktop/Tumo20/app/src/main/res/layout/activity_main.xml"
+    }
+]
