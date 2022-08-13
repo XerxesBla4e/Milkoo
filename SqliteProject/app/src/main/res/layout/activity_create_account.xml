@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/teal_700"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize">
+
+                <ImageView
+                    android:id="@+id/back_presssed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/purple_200"
+                    android:padding="15dp"
+                    android:src="@drawable/backbtn"></ImageView>
+
+                <ImageView
+                    android:id="@+id/search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/purple_200"
+                    android:padding="15dp"
+                    android:src="@drawable/search_icon"></ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="774dp">
+
+                <TextView
+                    android:id="@+id/signtxt"
+                    android:layout_width="189dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="112dp"
+                    android:layout_marginLeft="112dp"
+                    android:layout_marginEnd="110dp"
+                    android:layout_marginRight="110dp"
+                    android:gravity="center"
+                    android:text="SignUp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/pas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/signtxt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="109dp"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginRight="21dp"
+                    android:background="@drawable/layout_bg"
+                    android:hint="Enter Your Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/signname"
+                    android:layout_width="416dp"
+                    android:layout_height="51dp"
+                    android:layout_below="@+id/pas"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="-114dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/layout_bg"
+                    android:hint="Enter Your Name"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/healthfacility"
+                    android:layout_width="416dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/pas"
+                    android:layout_alignStart="@+id/pas"
+                    android:layout_alignLeft="@+id/pas"
+                    android:layout_alignEnd="@+id/pas"
+                    android:layout_alignRight="@+id/pas"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="136dp"
+                    android:layout_marginEnd="-6dp"
+                    android:layout_marginRight="-6dp"
+                    android:background="@drawable/layout_bg"
+                    android:hint="Enter Health Facility"
+                    android:inputType="text"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/healthfacility"
+                    android:layout_alignStart="@+id/healthfacility"
+                    android:layout_alignLeft="@+id/healthfacility"
+                    android:layout_alignEnd="@+id/healthfacility"
+                    android:layout_alignRight="@+id/healthfacility"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="-2dp"
+                    android:layout_marginRight="-2dp"
+                    android:background="@drawable/layout_bg"
+                    android:hint="Create Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/idnum"
+                    android:layout_width="405dp"
+                    android:layout_height="49dp"
+                    android:layout_below="@+id/healthfacility"
+                    android:layout_alignStart="@+id/healthfacility"
+                    android:layout_alignLeft="@+id/healthfacility"
+                    android:layout_alignEnd="@+id/healthfacility"
+                    android:layout_alignRight="@+id/healthfacility"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="-168dp"
+                    android:layout_marginEnd="-2dp"
+                    android:layout_marginRight="-2dp"
+                    android:background="@drawable/layout_bg"
+                    android:hint="Enter ID Number"
+                    android:inputType="number"
+                    android:textColorHint="@color/black" />
+
+                <Button
+                    android:id="@+id/logbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pass"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="44dp"
+                    android:layout_marginRight="44dp"
+                    android:background="@color/black"
+                    android:onClick="signup"
+                    android:text="CREATE ACCOUNT"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    app:backgroundTint="#0E0E0E" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="69dp"
+                    android:layout_height="108dp"
+                    android:layout_above="@+id/logbtn"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="162dp"
+                    android:layout_marginLeft="162dp"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginRight="180dp"
+                    android:layout_marginBottom="91dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/level"
+                    android:layout_width="425dp"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/idnum"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/layout_bg" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
