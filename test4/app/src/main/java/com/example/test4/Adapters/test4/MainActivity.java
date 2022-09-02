@@ -1,9 +1,7 @@
-package com.example.test4;
+package com.example.test4.Adapters.test4;
 
 
 import static android.content.ContentValues.TAG;
-
-import static java.lang.Thread.sleep;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -13,7 +11,6 @@ import android.bluetooth.BluetoothSocket;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -27,25 +24,21 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import com.example.test4.BluetoothConnect.SelectDevice;
-import com.example.test4.Databases.DatabaseHelper;
-import com.example.test4.Databases.DatabaseManager;
-import com.example.test4.LogSign.Login;
-import com.example.test4.Sessions.SessionManager;
+import com.example.test4.Adapters.test4.BluetoothConnect.SelectDevice;
+import com.example.test4.Adapters.test4.Databases.DatabaseManager;
+import com.example.test4.Adapters.test4.LogSign.Login;
+import com.example.test4.Adapters.test4.Sessions.SessionManager;
+import com.example.test4.R;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.lang.reflect.Method;
 import java.sql.SQLDataException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
@@ -73,9 +66,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     int PERMISSION_REQUEST_CODE = 454;
     private static String[] BTPERMISSIONS = {
-            android.Manifest.permission.BLUETOOTH,
-            android.Manifest.permission.BLUETOOTH_CONNECT,
-            android.Manifest.permission.BLUETOOTH_SCAN
+            Manifest.permission.BLUETOOTH,
+            Manifest.permission.BLUETOOTH_CONNECT,
+            Manifest.permission.BLUETOOTH_SCAN
     };
 
     @Override
@@ -141,7 +134,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         connectBT.setOnClickListener(this);
         logout.setOnClickListener(this);
         analyse.setOnClickListener(this);
-        records.setOnClickListener(this);
     }
 
     private void GUihandler() {

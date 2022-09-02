@@ -124,9 +124,9 @@
 
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:id="@+id/analyse"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/ic_launcher_background" />
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/analyse" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -164,9 +164,9 @@
 
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:id="@+id/records"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/ic_launcher_background" />
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/records" />
 
                         <TextView
                             android:layout_width="wrap_content"

@@ -1,4 +1,4 @@
-package com.example.test4.Databases;
+package com.example.test4.Adapters.test4.Databases;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -75,11 +75,18 @@ public class DatabaseManager {
         return f;
     }
 
+   /* public int updaterecord(long _id, String Sourceaddress, String adulterant) {
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(DatabaseHelper.LOCATION, Sourceaddress);
+        contentValues.put(DatabaseHelper.ADULTERANT, adulterant);
+        int f = sqLiteDatabase.update(DatabaseHelper.TABLE_NAME1, contentValues, DatabaseHelper.ID + "=" + _id, null);
+        return f;
+    }*/
+
     public int delete(long id) {
-        int r = sqLiteDatabase.delete(DatabaseHelper.TABLE_NAME1, DatabaseHelper.ID + " = " + id, null);
+        int r = sqLiteDatabase.delete(DatabaseHelper.TABLE_NAME, DatabaseHelper.ID + " = " + id, null);
         return r;
     }
-
     /*
     public int delete(long id) {
         int r = sqLiteDatabase.delete(DatabaseHelper.TABLE_NAME, DatabaseHelper.ID + " = " + id, null);
@@ -101,14 +108,6 @@ public class DatabaseManager {
         } else {
             return false;
         }
-    }
-
-    public int updateRecord(long _id, String sourceAddress, String adulterant) {
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(DatabaseHelper.LOCATION, sourceAddress);
-        contentValues.put(DatabaseHelper.ADULTERANT, adulterant);
-        int f = sqLiteDatabase.update(DatabaseHelper.TABLE_NAME1, contentValues, DatabaseHelper.ID + "=" + _id, null);
-        return f;
     }
 }
 

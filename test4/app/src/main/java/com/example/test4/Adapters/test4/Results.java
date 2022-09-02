@@ -1,4 +1,4 @@
-package com.example.test4;
+package com.example.test4.Adapters.test4;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -14,7 +14,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.test4.Databases.DatabaseManager;
+import com.example.test4.Adapters.test4.Databases.DatabaseManager;
+import com.example.test4.R;
 
 import java.sql.SQLDataException;
 

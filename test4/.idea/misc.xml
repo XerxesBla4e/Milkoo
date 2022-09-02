@@ -23,8 +23,9 @@
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_forgot_pass.xml" value="0.2" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_main2.xml" value="0.22" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_patient_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_records.xml" value="0.22" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_results.xml" value="0.2" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_select_device.xml" value="0.2" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
@@ -36,7 +37,9 @@
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/dov_view.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/guidexml.xml" value="0.17" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/message_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/recrow.xml" value="0.25" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/save_record.xml" value="0.21" />
+        <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/layout/update_record.xml" value="0.22" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/menu/patient_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/XerxesCodes/AndroidStudioProjects/test4/app/src/main/res/menu/tumo_menu.xml" value="0.33" />
       </map>
