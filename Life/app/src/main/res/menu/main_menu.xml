@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Profile"
+    android:id="@+id/menu_xer"
+    android:icon="@drawable/account"
+    app:showAsAction="always"
+    />
+    <item
+        android:title="Logout"
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_baseline_logout_new_24"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="FAQs"
+        android:id="@+id/menu_faqs"
+        android:icon="@drawable/faqs"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Help?"
+        android:id="@+id/menu_help"
+        android:icon="@drawable/ic_baseline_help_24"
+        app:showAsAction="never"
+        />
+</menu>
